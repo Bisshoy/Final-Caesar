@@ -39,7 +39,7 @@ int main() {
     int shift;              // Shift value 
     char answer[10];        // Cypher or Decypher? 
     
-    // s (10 bytes), m (100 bytes), or l (1000 bytes)
+    // s (100 bytes), m (1000 bytes), or l (10000 bytes)
     printf("How long of a sentence? [s/m/l]: ");
     scanf("%c", &sentenceSize);
     getchar();
