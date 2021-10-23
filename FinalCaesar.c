@@ -56,7 +56,7 @@ int main() {
             length = 10000;
             break;
         default: 
-            printf("ERROR: Size input not recognized.");
+            printf("ERROR: Size input not recognized.\n");
             break;
     }
 
@@ -66,7 +66,8 @@ int main() {
 
     // In case of faulty memory allocation 
     if (original == NULL) {
-        printf("ERROR: Memory not allocated.");
+        printf("ERROR: Memory not allocated.\n"); 
+        exit(0);
     }
 
     // Cypher or Decypher Decision 
@@ -101,7 +102,7 @@ int main() {
         // Decide the key shift number 
         printf("Enter the original shift value here: ");
         scanf("%d", &shift); 
-        
+
         // Decode shift value 
         int decodeShift = 26 - (shift % 26); 
 
@@ -154,4 +155,3 @@ char CaesarCypher(char original[], int shift) {
 
     }
 }
-
