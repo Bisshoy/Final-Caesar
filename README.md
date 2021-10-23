@@ -13,6 +13,6 @@ used stack memory for the original string instead of heap memory. Honestly, the 
 20% for educational purposes and 80% the fact that "dynamic memory allocation" sounds mega cool. 
 I stand by my decision, future reader (probably just myself in the future).
 
-version 3.5
+v3.3
 
 Bisshoy Anwar 
