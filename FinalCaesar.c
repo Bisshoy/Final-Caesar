@@ -101,8 +101,9 @@ int main() {
         // Decide the key shift number 
         printf("Enter the original shift value here: ");
         scanf("%d", &shift); 
-
-        int decodeShift = 26 - (shift % 26);    // Decode shift value 
+        
+        // Decode shift value 
+        int decodeShift = 26 - (shift % 26); 
 
         // Print translated text 
         printf("\nYour cyphered text is:\n");
