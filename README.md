@@ -15,4 +15,4 @@ I stand by my decision, future reader (probably just myself in the future).
 
 version 3.5
 
-author Bisshoy Anwar 
+Bisshoy Anwar 
